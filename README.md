@@ -1,4 +1,4 @@
-# accordion
+# @t7/accordion-multi
 
 Create a multi-select 'accordion' style component from a single structure
 
