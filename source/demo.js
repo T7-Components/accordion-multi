@@ -20,23 +20,39 @@ class Demo extends React.Component {
     }
     // Expose UI.
     return (
-      <AccordionMulti selected={selected} handleClick={() => {}}>
-        <AccordionPanel label='Item 1'>
-          <p>
-            Content for "Item 1 a"
-          </p>
-        </AccordionPanel>
-        <AccordionPanel label='Item 2'>
-          <p>
-            Content for "Item 2"
-          </p>
-        </AccordionPanel>
-        <AccordionPanel label='Item 3'>
-          <p>
-            Content for "Item 3"
-          </p>
-        </AccordionPanel>
-      </AccordionMulti>
+      <React.Fragment>
+        <h1>@t7/accordion-multi</h1>
+
+        <p>
+          <a href='https://github.com/t7-components/accordion-multi/blob/master/source/demo.js'>
+            View "demo.js" on GitHub
+          </a>
+        </p>
+
+        <hr />
+
+        <h2>
+          Using &#60;AccordionMulti&#62; as a wrapper and &#60;AccordionPanel&#62; as content
+        </h2>
+
+        <AccordionMulti selected={selected} handleClick={() => {}}>
+          <AccordionPanel label='Item 1'>
+            <p>
+              Content for "Item 1 a"
+            </p>
+          </AccordionPanel>
+          <AccordionPanel label='Item 2'>
+            <p>
+              Content for "Item 2"
+            </p>
+          </AccordionPanel>
+          <AccordionPanel label='Item 3'>
+            <p>
+              Content for "Item 3"
+            </p>
+          </AccordionPanel>
+        </AccordionMulti>
+      </React.Fragment>
     )
   }
 }
