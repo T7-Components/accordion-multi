@@ -7,8 +7,8 @@ This component functions similarly to `<Accordion/>` except that it allows for m
 By default, accordion areas are collapsed. To render an area open, pass an object with the corresponding index(es) set to `true`.
 
 ## Installation
-```js
-npm install @t7/accordion-multi --save-dev
+```sh
+npm install @t7/accordion-multi --save
 ```
 
 ## Usage
@@ -66,8 +66,8 @@ const handleClick = (e, index, label, selected) => {
 &nbsp;
 
 ### Note regarding the use of the _required_ CSS
-_*if your build process will not resolve the CSS in a module copy the file `@t7/accordion-multi/dist/index.css` from the node_modules folder and reference the copy with an HTML link *_  
-  
+_*if your build process will not resolve the CSS in a module copy the file `@t7/accordion-multi/dist/index.css` from the node_modules folder and reference the copy with an HTML link *_
+
 ```xml
 e.g.
 <link rel="stylesheet" type="text/css" href="<your stylesheet folder>/@t7/accordion-multi/dist/index.css">
