@@ -1,6 +1,6 @@
 # @t7/accordion-multi
 
-Create a multi-select 'accordion' style component from a single structure
+Create a multi-select 'accordion' style React component from a single structure
 
 This component functions similarly to `<Accordion/>` except that it allows for multiple areas to be expanded at a time.
 
